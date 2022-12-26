@@ -1,4 +1,11 @@
+import {Link} from "react-router-dom";
+
 function Login() {
+  
+  let submittedForm = ()=>{
+    
+  }
+  
   return (
     <div>
       <form data-testid="login-form">
@@ -18,7 +25,7 @@ function Login() {
             />
           </label>
         </div>
-        <div>
+        <div onClick={submittedForm}>
           <input data-testid="form-submit" type="submit" value="SUBMIT" />
         </div>
       </form>
